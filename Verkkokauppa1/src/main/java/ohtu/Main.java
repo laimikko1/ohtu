@@ -8,11 +8,6 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 public class Main {
 
     public static void main(String[] args) {
-//        Kirjanpito kirjanpito = new Kirjanpito();
-//        Varasto varasto = new Varasto(kirjanpito);
-//        Pankki pankki = new Pankki(kirjanpito);
-//        Viitegeneraattori viitegen = new Viitegeneraattori();
-//        Kauppa kauppa = new Kauppa(varasto, pankki, viitegen);
         ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
         Kauppa kauppa = (Kauppa) ctx.getBean("kauppa");
         Kirjanpito kirjanpito = (Kirjanpito) ctx.getBean("kirjanpito");
