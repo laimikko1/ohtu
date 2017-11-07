@@ -9,21 +9,6 @@
                    http://www.springframework.org/schema/context
                    http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
-    <bean id="kirjanpito" class="ohtu.verkkokauppa.Kirjanpito"></bean>
-    <bean id="varastoInterface" class="ohtu.verkkokauppa.Varasto">
-        <constructor-arg ref="kirjanpito"/>
-    </bean>
-    <bean id="pankkiInterface" class="ohtu.verkkokauppa.Pankki">
-        <constructor-arg ref="kirjanpito"/>
-    </bean>
-    <bean id="viitegeneraattoriInterface" class="ohtu.verkkokauppa.Viitegeneraattori"></bean>
-    <bean id="kauppa" class="ohtu.verkkokauppa.Kauppa">
-        <constructor-arg ref="varastoInterface"/>
-        <constructor-arg ref="pankkiInterface"/>
-        <constructor-arg ref="viitegeneraattoriInterface"/>
-     
-    </bean>
-       
     <context:annotation-config />
     <context:component-scan base-package="ohtu.verkkokauppa" />
 
