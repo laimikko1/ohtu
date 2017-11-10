@@ -36,9 +36,8 @@ public class Main {
         Kurssi kurssi = mapper.fromJson(kurssiBody, Kurssi.class);
 
         for (Map.Entry<String, JsonElement> e : parsittuData.entrySet()) {
-            JsonElement moi = e.getValue();
-            WeeklyReturn w = mapper.fromJson(moi, WeeklyReturn.class);
-            kurssi.addWeeklyreturn(w);
+            JsonElement json = e.getValue();
+            kurssi.addWeeklyreturn(mapper.fromJson(json, WeeklyReturn.class));
         }
 
 
