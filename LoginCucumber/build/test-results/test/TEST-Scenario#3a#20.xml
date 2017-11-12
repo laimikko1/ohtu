@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: " tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-12T12:22:35" hostname="fuxi16" time="0.0">
+  <properties/>
+  <testcase name="classMethod" classname="Scenario: " time="0.0"/>
+  <system-out><![CDATA[
+  Scenario: creation fails with already taken username and valid password ?[90m# ohtu/new_user.feature:9?[0m
+    ?[32mGiven ?[0m?[32mcommand new user is selected?[0m                                    ?[90m# Stepdefs.command_new_user_is_selected()?[0m
+    ?[32mWhen ?[0m?[32musername "?[0m?[32m?[1mpekka?[0m?[32m" and password "?[0m?[32m?[1mjamo?[0m?[32m" are entered?[0m                 ?[90m# Stepdefs.a_username_and_password_are_entered(String,String)?[0m
+    ?[32mThen ?[0m?[32msystem will respond with "?[0m?[32m?[1mnew user not registered?[0m?[32m"?[0m               ?[90m# Stepdefs.system_will_respond_with(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
