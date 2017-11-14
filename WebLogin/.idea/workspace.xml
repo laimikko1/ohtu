@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ohtu/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7">
-              <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -456,6 +456,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ohjelmistotuotanto2017/koodi/viikko3/LoginCucumber/build.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -564,12 +565,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510681653701</updated>
-      <workItem from="1510681654924" duration="3484000" />
+      <workItem from="1510681654924" duration="4641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3484000" />
+    <option name="totallyTimeSpent" value="4641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="742" extended-state="6" />
@@ -693,7 +694,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ohtu/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
-          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>

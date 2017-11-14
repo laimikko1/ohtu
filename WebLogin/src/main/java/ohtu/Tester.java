@@ -89,7 +89,7 @@ public class Tester {
         element.click();
 
         sleep(2);
-        
+
         element = driver.findElement(By.name("username"));
         element.sendKeys("pekka");
         element = driver.findElement(By.name("password"));

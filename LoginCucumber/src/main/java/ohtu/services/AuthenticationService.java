@@ -59,9 +59,7 @@ public class AuthenticationService {
 
     // Regular expression
     static boolean onlyLetter(String str) {
-        //Labmda - stackoverflowsta löysin, koitin eka regexpressil mut tää oli niin kaunis että itketti
-//        str.chars().allMatch(Character::isLetter);
-        boolean kirjaimia = str.matches(".*[a-z].*");
+        boolean kirjaimia = str.matches("[a-zA-Z]+");
         return kirjaimia;
     }
 
