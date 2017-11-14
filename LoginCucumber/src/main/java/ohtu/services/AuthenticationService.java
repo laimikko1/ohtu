@@ -2,15 +2,15 @@ package ohtu.services;
 
 import ohtu.domain.User;
 
-import java.util.ArrayList;
-import java.util.List;
 
 import ohtu.data_access.UserDao;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+@Component
 public class AuthenticationService {
 
     private UserDao userDao;
-
+@Autowired
     public AuthenticationService(UserDao userDao) {
         this.userDao = userDao;
     }
@@ -41,11 +41,8 @@ public class AuthenticationService {
     }
 
     private boolean invalid(String username, String password) {
-        if (!checkUsername(username) || !checkPassword(password)) {
-            return true;
-        }
+        return !checkUsername(username) || !checkPassword(password);
 
-        return false;
     }
 
     private boolean checkPassword(String password) {
@@ -53,24 +50,18 @@ public class AuthenticationService {
             return false;
         }
 
-        if (!containsNumber(password) && onlyLetter(password)) {
-            return false;
-        }
-
-        return true;
+        return containsNumber(password) || !onlyLetter(password);
     }
 
     private boolean checkUsername(String username) {
-        if (!onlyLetter(username) || !checkThatLengthAtleast(username, 3)) {
-            return false;
-        }
-        return true;
+        return onlyLetter(username) && checkThatLengthAtleast(username, 3);
     }
 
     // Regular expression
     static boolean onlyLetter(String str) {
         //Labmda - stackoverflowsta löysin, koitin eka regexpressil mut tää oli niin kaunis että itketti
-        boolean kirjaimia = str.chars().allMatch(Character::isLetter);
+//        str.chars().allMatch(Character::isLetter);
+        boolean kirjaimia = str.matches(".*[a-z].*");
         return kirjaimia;
     }
 

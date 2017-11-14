@@ -1,0 +1,8 @@
+pekka;akkep
+jukka;akkuj
+mikko;okkim
+moi;hevonen
+okkim;mikkom
+mikko12;mikko
+mikko4725;okkim
+mikko64877;okkim
