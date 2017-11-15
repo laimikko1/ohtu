@@ -3,6 +3,7 @@ package ohtu;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import ohtu.data_access.UserDao;
 import ohtu.domain.User;
 
@@ -11,6 +12,7 @@ public class UserDaoForTests implements UserDao {
     private List<User> users;
 
     public UserDaoForTests() {
+
         this.users = new ArrayList<>();
     }
 

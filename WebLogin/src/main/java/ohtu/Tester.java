@@ -11,10 +11,10 @@ import java.util.Random;
 public class Tester {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "/home/laimikko/Downloads/chromedriver");
-        WebDriver driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver", "/home/laimikko/Downloads/chromedriver");
+//        WebDriver driver = new ChromeDriver();
 
-//        WebDriver driver = new HtmlUnitDriver();
+        WebDriver driver = new HtmlUnitDriver();
 
         driver.get("http://localhost:4567");
         System.out.println(driver.getPageSource());

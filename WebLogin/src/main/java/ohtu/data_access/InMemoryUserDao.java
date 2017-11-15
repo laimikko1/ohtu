@@ -13,7 +13,7 @@ public class InMemoryUserDao implements UserDao {
         User u = new User();
         
         users.add(new User("pekka", "akkep"));
-    }        
+    }
 
     @Override
     public List<User> listAll() {

@@ -4,8 +4,8 @@ import ohtu.data_access.UserDao;
 import ohtu.domain.User;
 import org.junit.rules.ExternalResource;
 import spark.Spark;
+
 import cucumber.api.java.Before;
-import io.github.bonigarcia.wdm.ChromeDriverManager;
 
 public class ServerRule extends ExternalResource {
 
