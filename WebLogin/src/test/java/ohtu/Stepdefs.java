@@ -40,6 +40,26 @@ public class Stepdefs {
         element.click();
     }
 
+    @Given("^user with username \"([^\"]*)\" with password \"([^\"]*)\" is succesfully created$")
+    public void user_with_username_and_password_is_created(String username, String password) throws Throwable {
+        command_new_user_is_selected();
+        signUpWith(username, password, null);
+
+        WebElement element = driver.findElement(By.linkText("continue to application mainpage"));
+        element.click();
+        element = driver.findElement(By.linkText("logout"));
+        element.click();
+
+    }
+
+    @Given("^user with username \"([^\"]*)\" and password \"([^\"]*)\" is tried to be created")
+    public void user_with_username_and_password_is_tried_to_be_created(String username, String password) throws Throwable {
+        command_new_user_is_selected();
+        signUpWith(username, password, null);
+        WebElement element = driver.findElement(By.linkText("back to home"));
+        element.click();
+    }
+
     @When("^correct username \"([^\"]*)\" and password \"([^\"]*)\" are given$")
     public void username_correct_and_password_are_given(String username, String password) throws Throwable {
         logInWith(username, password);
@@ -80,6 +100,15 @@ public class Stepdefs {
         signUpWith(username, password, confirmationPassword);
     }
 
+    @When("^a existing username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
+    public void a_existing_username_and_password_are_entered(String username, String password) throws Throwable {
+        logInWith(username, password);
+    }
+
+    @When("^tried to be created username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
+    public void tried_to_be_created_username_and_password_are_entered(String username, String password) {
+        logInWith(username, password);
+    }
 
     @Then("^user is logged in$")
     public void user_is_logged_in() throws Throwable {
@@ -132,7 +161,7 @@ public class Stepdefs {
         element = driver.findElement(By.name("password"));
         element.sendKeys(password);
         element = driver.findElement(By.name("passwordConfirmation"));
-        if(confirmationPassword == null) {
+        if (confirmationPassword == null) {
             element.sendKeys(password);
         } else {
             element.sendKeys(confirmationPassword);
