@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/home/laimikko/ohtu-viikko2-3/IntJoukkoSovellus/src/main/java/App.java">
+</file>
+<file name="/home/laimikko/ohtu-viikko2-3/IntJoukkoSovellus/src/main/java/ohtu/intjoukkosovellus/IntJoukko.java">
+</file>
+<file name="/home/laimikko/ohtu-viikko2-3/IntJoukkoSovellus/src/main/java/ohtu/intjoukkosovellus/Sovellus.java">
+<error line="15" column="5" severity="error" message="Method length is 18 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="34" column="5" severity="error" message="Method length is 13 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="81" column="5" severity="error" message="Method length is 11 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="93" column="5" severity="error" message="Method length is 16 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="110" column="5" severity="error" message="Method length is 42 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+</checkstyle>
