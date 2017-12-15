@@ -29,7 +29,7 @@ Jokaisen sprintin lopuksi järjestetään katselmointi, jossa tuoteomistajalle j
 kirjataan mahdollisesti vaatimuksiin ja kehitysjonoa voidaan muokata sen perusteella. Sprintin lopuksi on myös retrospektiivi, jossa timi keskustelee työprosessistaan sprintin aikana.
 
 
-### Persoonallisuustyypit ja ohjelmistokehitys sekä yhmätyötaidot opetuksessa
+### Persoonallisuustyypit ja ohjelmistokehitys
 Kehitystiimit koostuvat aina erilaisista kehittäjistä ja persoonallisuuksista. Persoonallisuustyyppien määrittelyä varten kandityö käyttää Myers-Briggsin
 tyyppi-indikaattoria, joka jakaa ihmisen persoonallisuuden neljään osaan. Sosiaalinen vuorovaikutus tiedonkeruu, päätöksenteko sekä elämäntyyli. Kaikilla näillä on
 omat sisäiset skaalansa, joihin jokainen sijoittuu.
@@ -38,6 +38,10 @@ Hyville ohjelmistokehittäjille riittää töitä. Tähän ei kuulu pelkästää
 
 Myers-Briggin persoonallisuustyyppejä on tutkittu ohjelmistokehityksen eri vaiheissa. Vaiheita ovat vaatimusmäärittely, suunnittelu, toteutus, testaus ja ylläpito.
 Pääosin voidaan sanoa että ekstrovertit soveltuvat erityisesti tiiviisti asiakkaan kanssa tehtäviin työprosesseihin paremmin, kun taas introvertit ovat soveltuvampia teknisen puolen vaiheisiin. Pääosin sama toteutuu myös tuntevien ja tietävien ihmisten välillä. Poikkeuksiakin kuitenkin on, mutta pääsääntöisesti jokaisen persoonallisuustyyppi on vahvemmilla tietyissä työvaiheissa.
+
+
+### Ryhmätyötaitojen kehittäminen alan koulutuksessa 
+
 
 Ryhmätaitojen keskeinen merkitys ohjelmistotuotannossa on huomioitu myös alan koulutuksessa, jossa ryhmätyöskentelyä ja projektitöitä on lisätty. Jos kommunikointitaitoja ei kuitenkaan opeteta ja harjoitella, voi ryhmätöistä jäädä epämiellyttävä maku. Ryhmätyöskentelyyn rohkaisemiseen on kuitenkin kehitelty tapoja, jotka samalla myös kehittävät yksilöiden kommunikointi- ja ryhmätyötaitoja. Kandityössä tarkastellaan kolmea eri tapaa; vuorovaikutteinen luokkahuone, tarkkailija-kommunikoija-rakenne ja "Mine/Ours"-strategia. Nämä menetelmät ovat erityisesti keskittyneet opiskeluympäristöihin, sivuhuomautuksena mainittakoon erityisesti että Mine/Ours strategia on hyvin lähellä monien kurssien laskarikäytäntöjä nykyisin.
 
