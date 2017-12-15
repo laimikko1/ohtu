@@ -7,7 +7,7 @@ Ohjelmistojen suunnittelu nähdään jatkuvana prosessina, jolloin ketterien men
 Tähän liittyen olennaista on tiimin itseorganisoituminen ja "itsenäisyys", eli oma päätäntävalta liittyen esimerkiksi työskentelytapoihin.
 Kandityössä käsitellään kahta, Extreme Programmingia ja Scrumia.
 
-### Extreme Programming ja Scrum
+### Extreme Programming
 
 Extreme Progamming on Kent Beckin luoma menetelma, jossa keskiössä ovat ovat kommunikointi ja ryhmätyöskentely.
 Keskeistä menetelmässä on tiimin tiivis yhteistyö ja säännölliset tapaamiset asiakkaan kanssa. Pariohjelmointi on myös keskeistä menetelmässä. Siinä toinen parista keskittyy ohjelmoimaan (driver) ja toinen kertoo kertoo millaisia tehtäviä tulee tuottaa (navigator). Pari vaihtaa rooleja sovituin väliajoin. Pariohjelmoinnin keskeisiä hyötyjä ovat parempi koodin laatu ja muilta oppiminen.
@@ -15,6 +15,8 @@ Keskeistä menetelmässä on tiimin tiivis yhteistyö ja säännölliset tapaami
 Extreme Programming työskentely määrittyy julkaisusuunnitelman kautta, joka laaditaan asiakkaan ja tiimin kokouksessa. Julkaisuunnitelmassa kartoitetaan asiakkaan kanssa lista vaatimuksista, joita ohjelmaan halutaan. Julkaisusuunnitelma muodostuu iteraatioista ja jokainen vaatimus sijoitetaan tiettyyn iteraatioon.
 
 Jokaiseen iteraatioon liittyy iteraatiosuunnitelma, joka laaditaan jokaiseen iteraatioon suunnitteluun liittyvässä kokouksessa. Asiakas valitsee iteraatioon julkaisusuunnitelmasta korkeimman prioriteetin vaatimukset. Vaatimukset pilkotaan pieniksi toteutettaviksi työtehtäviksi kehittäjien toimesta ja he estimoivat tehtäviin kuluvan työajan sekä määrittävät sen tekijän. Iteraation lopuksi suoritetaan hyväksymätestaus, jossa testataan asiakkaan määrittämän hyväksymäkriteerin mukaisesti iteraation vaatimuksia. Asiakas päättää testituloksien perusteella, onko iteraation versio julkaisukelpoinen ja mahdolliset virheet korjataan seuraavassa iteraatiossa.
+
+### Scrum 
 
 Scrum on Extreme progammingin tavoin iteratiivinen menetelmä. Iteraatioiden tilalla puhutaan kuitenkin sprinteistä ja julkaisusuunnitelman tilalla on
 kehitysjono. Scrumtiimin koostumus on hieman erilainen, vaikka tiimin työssä korostuu monitaitoisuus ja ryhmän itseorganisoituminen esimerkiksi jokaisen sprintin työmäärän ja työskentelytapojen suhteen. Scrum-tiimeissä on erikseen henkilö, scrummaster, joka varmistaa että tiimi noudattaa scrumin periaatteita, eikä siihen kohdistu ulkoisia häiriöitä. Lisäksi on tuoteomistaja, jonka tehtävä on tuotteen arvon ja tiimin työskentelyn arvon maksimointi. 
