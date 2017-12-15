@@ -1,8 +1,13 @@
+## Tiivistelmä Kenny Heinosen kandidaattityöstä Ohjelmistoala ja ryhmätyöskentely 
+
+### Ohjelmistojen kehitysprosessi ja ryhmätyö
 Ohjelmistojen kehityksessä ryhmätyoskentely on tärkeää, koska projektien kasvava kompleksisuus ja laajuus tekee niiden toteuttamisen yksilöille vaikeaksi. Ryhmätyöskentely vaatii sekä yhteistyö- että kommunikointitaitoja, joiden opetusta nykyään painotetaan myös alan opetuksessa. Useat nykyisin käytettävät työskentelymenetelmät myös sanelevat sääntöjä ryhmtyöskentelylle, jossa keskiössä ovat yksilöt.
 
 Ohjelmistojen suunnittelu nähdään jatkuvana prosessina, jolloin ketterien menetelmien etuna on mukautuvaisuus mahdollisiin muutoksiin.
 Tähän liittyen olennaista on tiimin itseorganisoituminen ja "itsenäisyys", eli oma päätäntävalta liittyen esimerkiksi työskentelytapoihin.
 Kandityössä käsitellään kahta, Extreme Programmingia ja Scrumia.
+
+### Extreme Programming ja Scrum
 
 Extreme Progamming on Kent Beckin luoma menetelma, jossa keskiössä ovat ovat kommunikointi ja ryhmätyöskentely.
 Keskeistä menetelmässä on tiimin tiivis yhteistyö ja säännölliset tapaamiset asiakkaan kanssa. Pariohjelmointi on myös keskeistä menetelmässä. Siinä toinen parista keskittyy ohjelmoimaan (driver) ja toinen kertoo kertoo millaisia tehtäviä tulee tuottaa (navigator). Pari vaihtaa rooleja sovituin väliajoin. Pariohjelmoinnin keskeisiä hyötyjä ovat parempi koodin laatu ja muilta oppiminen.
@@ -21,6 +26,8 @@ Scrumiin kuuluu myös päiväpalaveri, kestoltaan noin 15 minuuttia, jossa tiimi
 Jokaisen sprintin lopuksi järjestetään katselmointi, jossa tuoteomistajalle ja asiakkalle esitellään sprintin aikana toteutettuja vaatimuksia. Palaute 
 kirjataan mahdollisesti vaatimuksiin ja kehitysjonoa voidaan muokata sen perusteella. Sprintin lopuksi on myös retrospektiivi, jossa timi keskustelee työprosessistaan sprintin aikana.
 
+
+### Persoonallisuustyypit ja ohjelmistokehitys sekä yhmätyötaidot opetuksessa
 Kehitystiimit koostuvat aina erilaisista kehittäjistä ja persoonallisuuksista. Persoonallisuustyyppien määrittelyä varten kandityö käyttää Myers-Briggsin
 tyyppi-indikaattoria, joka jakaa ihmisen persoonallisuuden neljään osaan. Sosiaalinen vuorovaikutus tiedonkeruu, päätöksenteko sekä elämäntyyli. Kaikilla näillä on
 omat sisäiset skaalansa, joihin jokainen sijoittuu.
