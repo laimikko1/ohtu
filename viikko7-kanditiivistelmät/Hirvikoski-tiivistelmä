@@ -1,0 +1,5 @@
+## Tiiviistelmä Kasper Hirvikosken kandityöstä _Metriikat käytänteiden tukena ohjelmiston laadun arvioimisessa_
+
+Ohjelmia voidaan arvioida laadullisesti. Laadulliset kriteerit on kandityössä jaettu neljään osaan: laatumalliin, ulkoisiin ja sisäisiin ja käyttölaadullisiin metriikoihin.  Metriikat tarjoavat keinoja ohjelmiston laadun varmentamiseen. Järjestelmän virhetiheyttä voidaan arvioida koodikirnun (code churn) avulla, joka ilmaisee komponentteihin kohdistuvia muutoksia. Komponenttien keskinäisten riipuuvuusverkkojen analysointiin voidaan taasen käyttää verkkoanalyysin menetelmiä. Ohjelmiston  testauksessa olennaista on sekä testien rivikattavuus että mutaatiotestaus.
+
+Ohjelmistoja kehittää ihminen, joten kehittäjän käytänteillä ja kehitysprosessilla on suuri merkitys laatuun. Laatuun positiivisesti vaikuttavia käytänteitä on havaittu olevan ketterä kehitys, joka mahdollistaa muutokset kehitystyössä ja ongelmien havaitsemisen aikaisemmassa vaiheessam testilähtöinen kehitys joka perustuu jatkuvaan refaktorointiin ja pariohjelmointi, joka perustuu yhteistyöhön ja sen on todettu lisäävän hyvien ohjelmointitapojen käyttöä.
